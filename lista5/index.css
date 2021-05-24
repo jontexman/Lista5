@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 75px;
+    margin:0px;
+}
+.logo{
+    justify-self: center;
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+    object-fit: scale-down;
+}
+
+.navbar-brand {
+    display: flex;
+    margin: 0 25px;
+    font-size: large;
+    font-weight: 200;
+    color: blue;
+}
+
+.nav-link {
+    display:flex;
+    margin: 0 25 px;
+    font-size: large;
+    font-weight: 200;
+    color: blue;
+}
+
+section {
+    display:block;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 0px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size-adjust: auto;
+}
+
+
+h2 {
+    text-align: center;
+    font-size:145%;
+    margin: 20px;
+    padding: 20px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: Italic;
+    font-size-adjust: auto;
+}
+
+.carousel-inner img {
+    height: 540px;
+    margin: 30px;
+    object-fit: contain;
+}
+
+.carousel-control-next:hover {
+    background-color: lightgray;
+
+}
+.carousel-control-prev:hover {
+        background-color: lightgray;
+}
+.container-button {
+    text-align: center;
+    margin: 60px;
+}
+.footer {
+   bottom: 0;
+   width: 100%;
+   background-color:lightseagreen;
+   color: white;
+   text-align: center;
+}
+
+
+
+form{
+    display: block;
+}
+.form-signin .logo img {
+        object-position: center;
+        width: 40%;
+}
+.form-signin h1 {
+    text-align: center;
+    font-size-adjust: auto;
+}
+.email {
+    justify-self: left;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+
+.password{
+    justify-self: left;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+
+.about-me{
+    justify-self: left;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+.button {
+    text-align: center;
+    margin: 20px;
+}
+
+.back-button {
+    text-align: center;
+    margin: 30px;
+}
